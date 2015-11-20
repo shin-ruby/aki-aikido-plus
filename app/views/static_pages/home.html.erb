@@ -9,8 +9,8 @@
           <h3 class="masthead-brand"><%= image_tag("logo.png", width: '90')  %></h3>
           <nav>
             <ul class="nav masthead-nav">
-              <li class="active"><a href="#">首页</a></li>
-              <li><a href="#">课程</a></li>
+              <li class="active"><%= link_to "首页", root_path %></li>
+              <li><%= link_to "课程", course_path %></li>
               <li><a href="#">联系我们</a></li>
             </ul>
           </nav>
