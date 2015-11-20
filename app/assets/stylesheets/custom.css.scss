@@ -47,7 +47,8 @@ body {
   min-height: 100%;
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
           box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          background: image-url("Volo.jpg");
+  background: image-url("Volo.jpg");
+  background-repeat:no-repeat;
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -165,4 +166,31 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+/* about */
+
+.about-left {
+  padding-top: 90px;
+  .about-name {
+    margin-top: 100px;
+  }
+  .teacher {
+    margin-top: 60px;
+  }
+  .zbh {
+    margin-bottom: 120px;
+  }
+  p {
+
+  }
+}
+
+.about-right {
+  height: 100%;
+  background-color: #fff;
+  padding: 60px;
+  color: #212121;
+  text-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  line-height: 40px;
 }
