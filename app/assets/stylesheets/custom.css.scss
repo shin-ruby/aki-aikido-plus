@@ -168,6 +168,7 @@ body {
   }
 }
 
+
 /* about */
 
 .about-left {
@@ -182,9 +183,6 @@ body {
   .zbh {
     margin-bottom: 120px;
   }
-  p {
-
-  }
 }
 
 .about-right {
@@ -194,6 +192,9 @@ body {
   color: #212121;
   text-shadow: 0 0px 0px rgba(0, 0, 0, 0);
   line-height: 40px;
+  a {
+    color: #D32F2F;
+  }
 }
 
 address {

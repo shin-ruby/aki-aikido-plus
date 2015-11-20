@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'about' => 'static_pages#about'
   get 'course' => 'static_pages#course'
   get 'contact' => 'static_pages#contact'
+  get 'begin' => 'static_pages#begin'
 
 
 
