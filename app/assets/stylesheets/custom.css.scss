@@ -172,6 +172,7 @@ body {
 
 .about-left {
   padding-top: 90px;
+
   .about-name {
     margin-top: 100px;
   }
@@ -193,4 +194,11 @@ body {
   color: #212121;
   text-shadow: 0 0px 0px rgba(0, 0, 0, 0);
   line-height: 40px;
+}
+
+address {
+  text-align: left;
+  a {
+    color: #D32F2F;
+  }
 }
